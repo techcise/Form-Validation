@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('img/img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container{
+    padding: 20px;
+    height: 260px;
+    width: 260px;
+    background-color:rgba(15, 16, 58, 0.6);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin: 10px;  
+}
+
+.input label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.input input{
+    width: 100%;
+    border: slateblue;
+    outline: none;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(42, 44, 121, 0.2);
+}
+
+.input input:focus{
+    border: rgb(120, 103, 231) 2px double;
+}
+
+
+.submit{
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(94, 76, 211, 0.8);
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.submit:hover{
+    background-color:rgb(124, 107, 230);
+}
+
+.submit:active{
+    background-color:rgb(77, 56, 211);
+}
+
+#errorText{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    background-color: rgba(230, 73, 107, 0.8);
+    padding: 15px;
+}
